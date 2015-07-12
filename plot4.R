@@ -28,7 +28,3 @@ legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_
 plot(timeframe$Date2, as.numeric(timeframe$Global_reactive_power), type = "l", xlab="datetime", ylab = "Global_reactive_power")
 
 dev.off()
-
-
-
-dev.off()
